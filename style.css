@@ -1,0 +1,9 @@
+/* button color */
+.button-info:hover{
+    color: #fff;
+    background-color: tomato;
+    border-color: #b83838; 
+}
+.button-info:focus{
+    background-color: turquoise;
+}

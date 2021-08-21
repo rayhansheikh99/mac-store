@@ -69,8 +69,8 @@ function discount(name){
      const promoCode = document.getElementById('promo-code');
      const totalPrice = document.getElementById('total').innerText;
      if(promoCode.value == name){
-          const subTotal = parseInt(totalPrice);
-          const discount = subTotal/5; 
+          const total = parseInt(totalPrice);
+          const discount = total/5; 
           const grandTotal = totalPrice - discount;
           document.getElementById('total').innerText = grandTotal;
           document.getElementById('code-submit').disabled=true;
