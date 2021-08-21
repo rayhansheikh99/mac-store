@@ -74,6 +74,7 @@ function discount(name){
           const grandTotal = totalPrice - discount;
           document.getElementById('total').innerText = grandTotal;
           document.getElementById('code-submit').disabled=true;
+          promoCode.value= '';
            
      };
      
