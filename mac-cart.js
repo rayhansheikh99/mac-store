@@ -26,11 +26,11 @@ document.getElementById('primary-storage').addEventListener('click',function(){
 });
 
 document.getElementById('second-storage').addEventListener('click',function(){
-     costUpdate('storage',180);
+     costUpdate('storage',100);
 });
 
 document.getElementById('extra-storage').addEventListener('click',function(){
-     costUpdate('storage',360);
+     costUpdate('storage',180);
 });
 
 // delivery cost
