@@ -72,8 +72,11 @@ function discount(name){
           const subTotal = parseInt(totalPrice);
           const discount = subTotal/5; 
           const grandTotal = totalPrice - discount;
-           document.getElementById('total').innerText = grandTotal;
+          document.getElementById('total').innerText = grandTotal;
+          document.getElementById('code-submit').disabled=true;
+           
      };
+     
 };
 
 document.getElementById('code-submit').addEventListener('click', function(){
